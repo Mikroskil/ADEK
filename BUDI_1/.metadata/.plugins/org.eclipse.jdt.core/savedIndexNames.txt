@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+D:\Kuliah\Semester 3\PKTI\Project\BUDI_1\.metadata\.plugins\org.eclipse.jdt.core
+2319611994.index
+1844087892.index
