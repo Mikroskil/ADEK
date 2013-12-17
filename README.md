@@ -1,3 +1,3 @@
 BUDI (Budaya Indonesia)
 
-Sesuatu disini:
+Tulis sesuatu disini:
