@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+        android:id="@+id/textView1" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Lirik Lagu Bungong Jeumpa dari D.I. Aceh\n\n
+        bungong jeumpa, bungong jeumpa meugah di aceh …\n
+		bungong teuleubeh-teuleubeh indah lagoina\n
+		bungong jeumpa, bungong jeumpa meugah di aceh …\n
+		bungong teuleubeh-teuleubeh indah lagoina\n\n
+
+		puteh kuneng , meujampu mirah\n
+		bungong si ulah indah lagoina\n
+		puteh kuneng , meujampu mirah\n
+		bungong si ulah indah lagoina\n\n
+
+		lam sinar buleun, lam sinar buleun angen peu ayon ..\n
+		duroh meususon , meususon yang mala mala\n
+		lam sinar buleun, lam sinar buleun angen peu ayon ..\n
+		duroh meususon , meususon yang mala mala\n\n
+		mangat that mubee , meunyo tatem com\n
+		leumpah that harom si bungong jeumpa\n
+		mangat that mubee , meunyo tatem com\n
+		leumpah that harom si bungong jeumpa\n\n" 
+android:textAlignment="center"
+android:textStyle="bold"
+android:textSize="25dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
