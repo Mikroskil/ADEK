@@ -9,6 +9,27 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class awal extends Activity{
+	
+	//Share Button di Action Bar
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// TODO Auto-generated method stub
+		getMenuInflater().inflate(R.menu.menu, menu);
+		
+		MenuItem shareItem = (MenuItem) menu.findItem(R.id.action_share);
+		
+		ShareActionProvider mShare = (ShareActionProvider)shareItem.getActionProvider();
+		
+		Intent shareIntent = new Intent(Intent.ACTION_SEND);
+		shareIntent.setAction(Intent.ACTION_SEND);
+		shareIntent.setType("text/plain");
+		shareIntent.putExtra(Intent.EXTRA_TEXT, "Text to Share");
+		mShare.setShareIntent(shareIntent);
+		
+		return true;
+	}
+	//---------
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
