@@ -79,7 +79,7 @@ public class tab_main extends FragmentActivity implements
 		Intent shareIntent = new Intent(Intent.ACTION_SEND);
 		shareIntent.setAction(Intent.ACTION_SEND);
 		shareIntent.setType("text/plain");
-		shareIntent.putExtra(Intent.EXTRA_TEXT, "Text to Share");
+		shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/Mikroskil/ADEK");
 		mShare.setShareIntent(shareIntent);
 		
 		return true;
