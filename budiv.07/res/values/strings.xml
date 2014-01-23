@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BUDI</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright">© ADEK 2013</string>
+    <string name="about">Budaya Indonesia</string>
+    <string name="culture">Tentang BUDI</string>
+    <string name="exit">Keluar Aplikasi</string>
+    <string name="select">Pilih Provinsi</string>
+</resources>

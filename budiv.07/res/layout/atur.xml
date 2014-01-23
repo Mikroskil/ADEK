@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@drawable/testbg"
+    android:orientation="vertical" >
+
+    <TextView
+          android:textColor="#fff"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toggleButton1"
+        android:layout_alignBottom="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:text="Sound"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+         android:textColor="#fff"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="Pilih Music"
+  
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_marginBottom="47dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:checked="false"
+          android:textColor="#fff" />
+
+    <Spinner
+        android:background="#fff"
+        android:id="@+id/openMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" />
+
+    <Button
+          android:textColor="#fff"
+        android:id="@+id/btnch"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/openMusic"
+        android:layout_below="@+id/openMusic"
+        android:text="Ganti Music" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/testbg"
+     >
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" >
+     
+ </ScrollView>
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:text="Tentang BUDI"
+     android:layout_marginTop="55dp"
+     android:textAppearance="?android:attr/textAppearanceLarge" 
+     android:textColor="#fff"/>
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/textView1"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="40dp"
+     android:layout_marginLeft='15dp'
+     android:layout_marginRight='15dp'
+     android:textColor="#fff"
+     android:text="BUDI adalah sebuah aplikasi mobile berbasis Android yang bertujuan mengajak masyarakat agar lebih mengenal budaya Nusantara. 
+     Disamping itu, dengan adanya aplikasi ini masyarakat diharapkan tahu akan pentingya menjaga dan melestarikan warisan budaya Nusantara 
+     sebagai ciri khas sekaligus kekayaan negara yang tidak dimiliki oleh negara lain. "
+     android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
